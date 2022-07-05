@@ -1,8 +1,14 @@
-#include "main.h"
-/** main - returns putchar
- * and prints
+/*
+ *
+ * main - Prints "Holberton" followed by a new line.
+ * Return: Always 0.
  */
 
+#include "main.h"
+/*
+ * * main - returns putchar
+ * and prints
+ */
 
 int main(void)
 {
@@ -15,5 +21,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	return(0);
+	return (0);
 }
