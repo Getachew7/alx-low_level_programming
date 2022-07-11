@@ -5,11 +5,11 @@
  * @s: The string to be printed.
  */
 
-void print_rev(char *c)
+void print_rev(char *)
 {
 	int len = 0, index;
 
-	while (c[index++])
+	while (s[index++])
 		len++;
 
 	for (index = len - 1; index >= 0; index--)
